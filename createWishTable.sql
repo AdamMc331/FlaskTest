@@ -1,0 +1,7 @@
+CREATE TABLE wishes(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	title VARCHAR(100),
+	description VARCHAR(100),
+	user VARCHAR(100),
+	date DATETIME
+);
